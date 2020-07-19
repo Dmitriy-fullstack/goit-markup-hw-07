@@ -391,18 +391,18 @@ summary {
   background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../img/hw4/hero.jpg);
 }
 
-.hero {
+.hero-bgc .hero {
   width: 600px;
   padding: 200px 0px;
 }
 
-.hero .hero-title {
+.hero-bgc .hero .hero-title {
   font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   max-width: 696px;
   margin-left: auto;
@@ -412,7 +412,7 @@ summary {
   color: #fff;
 }
 
-.hero .button-submit {
+.hero-bgc .hero .button-submit {
   display: block;
   font-family: Roboto;
   font-weight: bold;
@@ -429,5 +429,261 @@ summary {
   padding: 10px 32px;
   -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.killer-margin {
+  display: none;
+}
+
+.advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.advantages .advantages-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantages .pict_position {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+}
+
+.advantages .pict_position .advantages-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages .section-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advantages .section-item {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: left;
+  width: 270px;
+}
+
+.section-margin {
+  margin-top: 94px;
+}
+
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work .work-item {
+  position: relative;
+}
+
+.work .work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work .work-img {
+  position: relative;
+}
+
+.work .work-img::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.h2-title {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team .team-item {
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team .team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team .name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team .function {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.team .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team .social-item {
+  margin-bottom: 24px;
+  width: 44px;
+  height: 44px;
+}
+
+.team .social-item + .team .social-item {
+  margin-left: 10px;
+}
+
+.team .social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  margin-bottom: 24px;
+  border-radius: 100px;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team .social-link:hover, .team .social-link:focus {
+  background-color: #2196F3;
+  border-radius: 100px;
+}
+
+.team .social-link:hover svg, .team .social-link:focus svg {
+  fill: #fff;
+}
+
+.team .social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.clients-item {
+  width: 170px;
+  height: 90px;
+}
+
+.clients-link {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  border-radius: 4px;
+  border: solid #AFB1B8;
+  border-width: 1px;
+  text-align: center;
+  padding: 19px 0px;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover svg, .clients-link:focus svg {
+  fill: #2196F3;
+}
+
+.clients-link:hover, .clients-link:focus {
+  border-color: #2196F3;
+}
+
+.clients-icon1 {
+  width: 44px;
+  height: 49px;
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icon2 {
+  width: 40px;
+  height: 52px;
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icon3 {
+  width: 41px;
+  height: 43px;
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icon4 {
+  width: 80px;
+  height: 42px;
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icon5 {
+  width: 59px;
+  height: 47px;
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icon6 {
+  width: 89px;
+  height: 46px;
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*# sourceMappingURL=main.css.map */
