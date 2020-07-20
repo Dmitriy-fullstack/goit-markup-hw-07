@@ -880,5 +880,36 @@ summary {
           align-items: center;
   width: 200px;
   height: 50px;
+  background-color: #2196F3;
+  color: #fff;
+  border-radius: 4px;
+  border-color: transparent;
+  text-align: center;
+  padding: 10px 32px;
+}
+
+.button-icon {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.developed {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dev_border {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 18px;
 }
 /*# sourceMappingURL=main.css.map */
