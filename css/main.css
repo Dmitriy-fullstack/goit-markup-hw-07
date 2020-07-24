@@ -328,6 +328,7 @@ summary {
   display: block;
   color: #212121;
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   padding-top: 32px;
   padding-bottom: 32px;
   -webkit-transition-property: color;
@@ -357,8 +358,12 @@ summary {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color: #212121;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #757575;
   font-style: normal;
+  font-weight: 500;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -751,6 +756,7 @@ summary {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  margin-top: 20px;
   letter-spacing: 0.03em;
   color: #fff;
 }
@@ -769,7 +775,7 @@ summary {
 }
 
 .footer-address-item {
-  margin-top: 8px;
+  margin-top: 9px;
   margin-bottom: 0;
 }
 
